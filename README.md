@@ -1,17 +1,18 @@
-# techstore_catalog
+# TechStore — Mini Teknoloji Kataloğu Mobil Uygulaması
 
-A new Flutter project.
+Flutter ve Dart kullanılarak geliştirilmiş; temel widget ağacı, GridView tabanlı ürün vitrini, anlık arama filtresi, sayfalar arası navigasyon (`Navigator.push`) ve dinamik sepet sayacı (`setState`) özelliklerini barındıran mobil katalog uygulamasıdır.
 
-## Getting Started
+## Kullanılan Teknolojiler ve Sürüm Bilgisi
+- **Flutter SDK:** 3.x (Stable)
+- **Dart SDK:** 3.x
+- **UI Kütüphanesi:** Material Design (`package:flutter/material.dart`)
 
-This project is a starting point for a Flutter application.
+## Proje Özellikleri
+- **Ürün Kataloğu (Ana Sayfa):** `GridView.builder` ile kart tabanlı 2 sütunlu ürün listeleme ve anlık arama çubuğu.
+- **Ürün Detay Sayfası:** Seçilen ürünün kategori, fiyat ve açıklama bilgilerinin gösterimi.
+- **Sepet Yönetimi:** Ürün detay sayfasından "Sepete Ekle" butonuna tıklandığında üst çubuktaki sepet sayacının anlık güncellenmesi.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kurulum ve Çalıştırma Adımları
+1. Projeyi bilgisayarınıza indirin veya klonlayın:
+   ```bash
+   git clone [https://github.com/kullaniciadi/techstore-catalog.git](https://github.com/kullaniciadi/techstore-catalog.git)
